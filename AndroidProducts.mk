@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/octavi_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    octavi_tissot-user \
+    octavi_tissot-userdebug \
+    octavi_tissot-eng \
